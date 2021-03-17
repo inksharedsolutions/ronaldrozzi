@@ -4,7 +4,7 @@ import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
-import Book1 from '../../static/book/book-min.png'
+import Book1 from '../../static/book/book.png'
 import { Helmet } from "react-helmet"
 
 const ATB = (props)=>{
@@ -13,7 +13,7 @@ const ATB = (props)=>{
     const slug =(props.location.href);
     
 	const disqusConfig = {
-	  shortname: 'frank-gilbertson',
+	  shortname: 'dr-ronald-p-rozzi-ms-d-rhy',
 	  config: { identifier:  12, slug}
     }
     
@@ -48,13 +48,18 @@ const ATB = (props)=>{
                                     
                                     ebooks:{
                                         stratton : '',
-                                        barnes: 'https://www.barnesandnoble.com/w/wasted-youth-frank-gilbertson/1008619329?ean=9781643458861',
-                                        amazon :'https://www.amazon.com/Wasted-Youth-Frank-Gilbertson-ebook/dp/B08FPCD5YM/ref=sr_1_1?dchild=1&keywords=9781643458861&qid=1597777519&sr=8-1', 
+                                        barnes: 'https://www.barnesandnoble.com/w/the-god-particle-rhy-dr-ronald-p-rozzi-msd/1137318337?ean=9781648951060',
+                                        amazon :'https://www.amazon.com/Particle-RHy-Ronald-Rozzi-Ms-D-ebook/dp/B08CQM5HLW/ref=sr_1_1?dchild=1&keywords=9781648951060&qid=1594396171&sr=8-1', 
                                     },
                                     paperback:{
-                                        amazon:'https://www.amazon.com/Wasted-Youth-Frank-Gilbertson/dp/1643458841/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1597777519&sr=8-1',
-                                        barnes:'https://www.barnesandnoble.com/w/wasted-youth-frank-gilbertson/1008619329?ean=9781643458847',
-                                        booksamillion:'https://www.booksamillion.com/p/Wasted-Youth/Frank-Gilbertson/9781643458847?id=8079271834425',
+                                        amazon:'https://www.amazon.com/God-Particle-Personal-Journey-Know/dp/1648951058/ref=sr_1_1?dchild=1&keywords=9781648951053&qid=1594756683&sr=8-1',
+                                        barnes:'https://www.barnesandnoble.com/w/the-god-particle-dr-rhy-ronald-p-rozzi-ms-d/1137333891?ean=9781648951053',
+                                        booksamillion:'https://www.booksamillion.com/p/God-Particle/Rhy-Ronald-P-Rozzi-MS/9781648951053?id=8158356429268',
+                                    },
+                                    hardcover:{
+                                        amazon:'https://www.amazon.com/God-Particle-Personal-Journey-Know/dp/1648951074/ref=sr_1_1?dchild=1&keywords=9781648951077&qid=1594756701&sr=8-1',
+                                        barnes:'https://www.barnesandnoble.com/w/the-god-particle-dr-rhy-ronald-p-rozzi-ms-d/1137333891?ean=9781648951077',
+                                        booksamillion:'https://www.booksamillion.com/p/God-Particle/Rhy-Ronald-P-Rozzi-MS/9781648951077?id=8158356429268',
                                     }
                                 }}
                             />

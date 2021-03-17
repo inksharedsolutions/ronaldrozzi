@@ -19,7 +19,7 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/Frank-Gilbertson-102147364947226/"
+                                <a href="https://www.facebook.com/Dr-Ronald-P-Rozzi-MsD-RHy-117497193389044/"
                                    target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon
                                         className='font-awesome'
@@ -49,7 +49,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/55029733-wasted-youth" rel="noreferrer">
+                                    href="https://www.goodreads.com/book/show/54630156-the-god-particle" rel="noreferrer">
                                     <FontAwesomeIcon 
                                         className='font-awesome'
                                         icon={faGoodreads} />
@@ -59,7 +59,7 @@ const Footer = ()=>{
                     </nav>
 
                     <div className="two-grid-column">
-                        <p>Copyright 2020. Stratton Press</p>
+                        <p>Copyright {new Date().getFullYear()}. Stratton Press</p>
 
                         <ul>
                             <li>

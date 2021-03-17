@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
-import AuthorImg from '../../static/author/author-photo.png'
+import AuthorImg from '../../static/author/author.png'
 import { Helmet } from "react-helmet"
 const ATB = (props)=>{
 	
@@ -60,7 +60,7 @@ const ATB = (props)=>{
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
-                                    Dr. Ronald P. Rozzi, Ms. D., RHy.
+                                    Dr. Ronald P. Rozzi,<br/>Ms. D., RHy.
                                 </span>
                             </p>
                             

@@ -1,6 +1,6 @@
 import React,{useEffect, useRef} from 'react'
 import {Link} from 'gatsby'
-import  ImgBanner from '../../static/book/book-min.png'
+import  ImgBanner from '../../static/book/book.png'
 
 const Banner = ()=>{
 

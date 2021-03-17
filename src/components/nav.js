@@ -1,6 +1,6 @@
 import React,{useRef, useState} from 'react'
 import {Link} from 'gatsby';
-import  Logo from '../../static/logo/logo.png'
+import  Logo from '../../static/logo/logo.svg'
 
 const Nav = (props) =>{
 

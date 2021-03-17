@@ -15,8 +15,8 @@ const BookInfo = (props)=>{
                 <div className="column" id={props.data.id}>
                     <section className="contentBook">
 
-                        <h1>{props.data.title} <span>{props.data.spanTitle}</span></h1>
-                        
+                        <h1>{props.data.title}</h1>
+                        <span>{props.data.spanTitle}</span>
                         <p>
                             {props.data.content}
                         </p>
@@ -43,9 +43,9 @@ const BookInfo = (props)=>{
 
                         <nav className="booklinkBlocks">
                             <span>Hardcover :</span>
-                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.amazon}>Amazon</a></li>
-                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.barnes}>Barnes & Noble </a></li>
-                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.booksamillion}>Books A Million</a></li>
+                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.hardcover.amazon}>Amazon</a></li>
+                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.hardcover.barnes}>Barnes & Noble </a></li>
+                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.hardcover.booksamillion}>Books A Million</a></li>
                         </nav>
                     </section>
                 </div>	
