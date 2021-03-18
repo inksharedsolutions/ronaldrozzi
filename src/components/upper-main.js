@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import {Link} from 'gatsby'
-import AuthorImg from '../../static/author/author.png'
+import AuthorImg from '../../static/author/author.jpg'
 
 const UpperMain =()=>{
 
@@ -31,7 +31,7 @@ const UpperMain =()=>{
 
                         <div classNames="content-img-wrapper">
                             <section className="content-wrapper-body">
-                                <h1>Dr. Ronald P. Rozzi,<br />Ms. D., RHy.</h1>
+                                <h1>Dr. Ronald P. Rozzi<br />Ms. D., RHy.</h1>
                                 <span>Author & Writer</span>
 
                                 <p>

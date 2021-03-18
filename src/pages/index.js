@@ -9,7 +9,7 @@ import Newsletter from "../components/newsletter"
 
 const IndexPage = (props) => (
   <Layout>
-  <Helmet title="Home | Dr. Ronald P. Rozzi, Ms. D., RHy."/>
+  <Helmet title="Home | Dr. Ronald P. Rozzi Ms. D., RHy."/>
       <Nav pathExt={props.path}/>
       <Banner/> 
       <UpperMain/> 

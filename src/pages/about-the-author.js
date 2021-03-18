@@ -2,14 +2,14 @@ import React from 'react'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
-import AuthorImg from '../../static/author/author.png'
+import AuthorImg from '../../static/author/author.jpg'
 import { Helmet } from "react-helmet"
 const ATB = (props)=>{
 	
 	return (
 		<>
 		 	<Layout>
-             <Helmet title="About the Author | Dr. Ronald P. Rozzi, Ms. D., RHy."/>
+             <Helmet title="About the Author | Dr. Ronald P. Rozzi Ms. D., RHy."/>
 		 		<Nav pathExt={props.path}/>
                  <Banner 
                  spanFirst={`About The`}
@@ -54,13 +54,13 @@ const ATB = (props)=>{
                                 Dr. Ron and his wife reside in Scottsville, NY, and he can be contacted by email anytime: 
                                 &nbsp;<a href="mailto:drronsgodparticle@gmail.com">drronsgodparticle@gmail.com</a> 
                                 &nbsp;or via the contact at 
-                                &nbsp;<a href="www.awarenessempowerment.com" target="_blank" rel="noreferrer">www.awarenessempowerment.com</a>
+                                &nbsp;<a href="https://www.awarenessempowerment.com" target="_blank">www.awarenessempowerment.com</a>
                             </p>
 
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
-                                    Dr. Ronald P. Rozzi,<br/>Ms. D., RHy.
+                                    Dr. Ronald P. Rozzi Ms. D., RHy.
                                 </span>
                             </p>
                             
