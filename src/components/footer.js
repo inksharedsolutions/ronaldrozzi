@@ -12,7 +12,7 @@ const Footer = ()=>{
                     <h1>Dr. Ronald P. Rozzi Ms. D., RHy.</h1>
                     <p className="param-footer">
                         Dr. Ronald P. Rozzi Ms. D., RHy. loves to hear from readers. You can reach him via email. 
-                        Feel free to send questions about writing, their works, interviews 
+                        Feel free to send questions about writing, his works, interviews 
                         and other publicity matters.
                     </p> 
 
