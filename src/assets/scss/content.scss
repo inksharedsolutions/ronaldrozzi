@@ -34,7 +34,7 @@
 
 
 .wn-author-name{
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-weight: 900;
     color: #000;
     font-size: 1.3em;
@@ -82,10 +82,10 @@
     .content-wrapper-body{
         background: #fff;
         padding: 15% 9%;
-        text-align: justify;
-
+        
         p{
             font-size: 1.1em !important;
+            text-align: justify;
         }
 
         button{

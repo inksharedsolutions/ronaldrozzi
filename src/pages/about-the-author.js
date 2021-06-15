@@ -54,13 +54,13 @@ const ATB = (props)=>{
                                 Dr. Ron and his wife reside in Scottsville, NY, and he can be contacted by email anytime: 
                                 &nbsp;<a href="mailto:drronsgodparticle@gmail.com">drronsgodparticle@gmail.com</a> 
                                 &nbsp;or via the contact at 
-                                &nbsp;<a href="https://www.awarenessempowerment.com" target="_blank">www.awarenessempowerment.com</a>
+                                &nbsp;<a href="https://www.awarenessempowerment.com" target="_blank" rel="noreferrer">www.awarenessempowerment.com</a>
                             </p>
 
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
-                                    Dr. Ronald P. Rozzi Ms. D., RHy.
+                                    Dr. Ronald Rozzi, Ms.D., RHy.
                                 </span>
                             </p>
                             
